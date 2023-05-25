@@ -14,5 +14,4 @@ ingredients.forEach(ingredient => {
   liElement.textContent = ingredient;
   ulElement.appendChild(liElement);
   liElement.classList ="item"
-  console.log(ingredient)
 });
